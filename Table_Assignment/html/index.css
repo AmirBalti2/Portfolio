@@ -1,0 +1,77 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    background-image: url(/Assignmnent/Table_Assignment/image/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    background-color: rgb(100, 100, 114);
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    height: 100px;
+}
+.col1{
+    width: 20%;
+    background-color: aqua;
+}
+.col2{
+    width: 50%;
+}
+.col3{
+    width:30%;
+}
+#nav,.listiteam{
+    padding-left: 50px;
+    list-style-type: none;
+    display: inline-block;
+}
+.listiteam a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    cursor: pointer;
+}
+.listiteam a:hover{
+    color: cadetblue;
+    border: 2px solid whitesmoke;
+    box-shadow: 20px 50px rgb(92, 92, 95);
+}
+#nav:hover{
+    transform: translateY(30px);
+    transition: 2s ;
+}
+.col1 h1::first-letter{
+   color: rgb(146, 138, 128);
+   font-weight: bold;
+   font-style: italic;
+}
+.btn{
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.registerbtn{
+    margin-right: 30px;
+}
+.loginbtn{
+    margin-left: 15px;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color:rgb(24, 172, 123);
+    font-weight: bold;
+}
+#headerpara{
+    text-align: center;
+    margin-top: 10em;
+    float: left;
+    
+}

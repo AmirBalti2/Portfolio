@@ -1,0 +1,135 @@
+*{
+    margin: 0 auto;
+    padding: 0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color:rgb(87, 85, 85);
+    padding: 20px;
+    font-size: 25px;
+    width: 100%;
+}
+.navbar-nav li {
+    text-decoration: none;
+    margin-left: 20px;
+    padding-left: 20px;
+
+}
+nav ul li .nav-link:hover{
+    background-color: rgb(61, 61, 226);
+    transform:translate(30px);
+    transition: 1s;
+    border-bottom: 2px solid bisque;
+
+}
+.content-sliders{
+    height: 80vh;
+    background-color: rgb(206, 218, 218);
+}
+.content-sliders img{
+    height: 80vh;
+    width: 100%;
+}
+.slide-caption{
+    margin-bottom: 143px;
+    color: azure;
+    font-size: 20px;
+    line-height: 30px;
+}
+#container-content{
+    background-image: url(/Assignmnent/Gym/image/1.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.subheading{
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+    border-bottom: 2px solid aliceblue;
+    width: 150px;
+
+}
+.cards{
+    margin-top: 50px;
+   text-align: center;
+   cursor: pointer;
+   height: 500px;
+  
+}
+.cards img{
+    height: 200px;
+}
+.para{
+    overflow: hidden;
+    text-indent: 5px;
+    font-size: 15px;
+}
+.button{
+    margin-top: 50px;
+    text-align: center;
+}
+.button a{
+    padding: 10px;
+   border-radius: 50px;
+   cursor: pointer;
+
+}
+.button a:hover{
+    background-color:coral;
+    color: bisque;
+    box-shadow: 20px 10px ghostwhite;
+    transform:scaleX(1.5);
+    transition: all 1s ease-in-out;
+    
+}
+.cards:hover{
+    transform:scaleX(1.5);
+    transition: all 1s ease-in-out;
+    box-shadow: 20px 10px gray;
+}
+.col-content{
+    margin-top: 30px;
+    background-color: darkgray;
+    text-align: center;
+    text-indent: 2px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+.col-content p{
+    margin-top: 20px;
+}
+.about{
+    background-color: gainsboro;
+}
+.price{
+    height: 100%;
+}
+.card-price{
+    margin-top: 20px;
+    height: 230px;
+    width: 200px;
+    text-align: center;
+}
+.card-price:hover{
+    border: 2px solid rgb(161, 142, 142);
+    border-radius: 50px;
+    background-color: aquamarine;
+    box-shadow: 10px 5px silver;
+    transform: translateY(15px);
+    transition: 1s ease;
+
+}
+@media only screen and (max-width: 1000px){
+    .navbar-brand{
+        margin-left: 0;
+    }
+ 
+.navbar{
+    margin: 0 ;
+    padding: 0;
+}
+}
+
