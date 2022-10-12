@@ -1,0 +1,31 @@
+/* media quray for feature cards */
+@media(max-width:1019px){
+    #feature .fe-box {
+        width: 80%;  
+    }
+    #menu .kcard {
+        width: 90%;
+        margin-top: 46px;
+        min-width: 0;
+    }
+}
+@media(max-width:575px){
+    #AboutUs .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width:1200px) and (max-width:1250px) {
+    #AboutUs .row{
+        width: 100%;
+    }
+    .maincontent .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1099px;
+    }
+}
+@media(max-width:1326px){
+    .testamonial{
+        height: auto;
+    }
+}
+

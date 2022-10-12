@@ -1,0 +1,95 @@
+/* .image-pro{
+    background-color: aquamarine;
+    width: 100%;
+    margin-right: 50px;
+}
+.image-pro img{
+    width: 100%;
+} */
+#product-detail{
+    display: flex;
+    margin-top: 20px;
+} 
+#product-detail .image-main{
+    width: 50%;
+    margin-right: 50px;
+}
+.image-group{
+    display: flex;
+    justify-content: space-between;
+}
+.images-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.image-col .smallimage img:hover{
+    opacity: 0.6;
+    background-color: aqua;
+}
+#product-detail .single-product-dec{
+    width: 50%;
+    padding-top: 30px;
+}
+#product-detail .single-product-dec h4{
+    padding: 40px 0 20px 0;
+    color: black;
+}
+#product-detail .single-product-dec h2{
+    font-size: 26px;
+    color: black;
+}
+#product-detail .single-product-dec select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+#product-detail .single-product-dec option{
+    color: black;
+}
+#product-detail .single-product-dec input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    color: black;
+}
+#product-detail .single-product-dec input:focus{
+    outline: none;
+}
+#product-detail .single-product-dec button{
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    transition: 0.2s ease-in;
+}
+#product-detail .single-product-dec button:hover{
+    background-color: aquamarine;
+    color: black;
+    box-shadow: 10px 20px 30px gainsboro;
+    transform: translateZ(50px);
+
+}
+/* media quaray */
+@media(max-width:612px){
+    #product-detail {
+        display: flex;
+        flex-direction: column;
+    }
+     .image-main{
+    width: 50%;
+    margin-right: 50px;
+}
+    #product-detail .image-main{
+    width: 100%;
+    margin-right: 0px;
+}
+#product-detail .single-product-dec button {
+    margin-top: 20px;
+}
+}
+.ncard{
+    margin-left: 60px;
+    height: 364px;
+}
